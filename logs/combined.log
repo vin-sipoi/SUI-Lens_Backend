@@ -9,3 +9,6 @@
 {"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-26T16:43:55.408Z"}
 {"level":"info","message":"Connected to Neon DB","timestamp":"2025-06-26T16:43:55.878Z"}
 {"level":"info","message":"Resend email setup is ready","timestamp":"2025-06-26T16:43:57.548Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-26T17:01:43.388Z"}
+{"level":"info","message":"Connected to Neon DB","timestamp":"2025-06-26T17:01:44.242Z"}
+{"level":"info","message":"Resend email setup is ready","timestamp":"2025-06-26T17:01:45.791Z"}
