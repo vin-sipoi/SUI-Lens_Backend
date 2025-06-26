@@ -1,0 +1,51 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id    Int    @id @default(autoincrement())
+  email String @unique
+
+  // Relations
+  events Event[]
+}
+
+model Event {
+  id               Int      @id @default(autoincrement())
+  userId           Int
+  title            String
+  description      String? 
+  date             DateTime @db.Date
+  time             DateTime @db.Time
+  endTime          DateTime? @db.Time
+  location         String? 
+  category         String? 
+  capacity         Int? 
+  ticketPrice      Decimal? @db.Decimal(10, 2)
+  isFree           Boolean  @default(true)
+  requiresApproval Boolean  @default(false)
+  isPrivate        Boolean  @default(false)
+  timezone         String
+  createdAt        DateTime? @default(now())
+
+  // Relations
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model OTP {
+  id        Int      @id @default(autoincrement())
+  email     String
+  otp       String   @db.VarChar(6)
+  expiresAt DateTime
+}
+
+model sessions {
+  session_id String   @id @db.VarChar(128)
+  expires    Int
+  data       String?  @db.MediumText
+}
