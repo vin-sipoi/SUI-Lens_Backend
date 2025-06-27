@@ -2,11 +2,9 @@ import express from "express"
 import session from "express-session";
 
 import sessionConfig from "./config/session";
-// const authRoutes = require('./routers/authRoutes');
 import authRoutes from "./routes/authRoutes"
-// const eventRoutes = require('./routers/eventsRoutes');
 import eventRoutes from "./routes/eventRoutes"
-const logger:any = require('./utils/logger');
+import logger from "./utils/logger";
 
 const app:any = express();
 

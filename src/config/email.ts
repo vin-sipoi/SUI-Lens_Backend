@@ -10,4 +10,4 @@ resend.domains.list()
     .then(() => logger.info('Resend email setup is ready'))
     .catch(err => logger.error('Resend email setup failed:', err));
 
-module.exports = resend;
+export default resend;

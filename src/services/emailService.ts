@@ -1,6 +1,6 @@
-const resend = require('../config/email');
+import resend from '../config/email';
 require('dotenv').config();
-const logger = require('../utils/logger');
+import logger from "../utils/logger";
 
 // Class to send emails with resend
 class EmailService {
@@ -9,8 +9,8 @@ class EmailService {
         try{
             // Send email 
             const { data, error} = await resend.emails.send({
-                from: process.env.RESEND_FROM_EMAIL,
-                to: [email],
+                from: process.env.RESEND_FROM_EMAIL || "onboarding@resend.dev",
+                to: ['bevonmokuas@gmail.com'],
                 subject: 'Your OTP Code',
                 html: `<p> YOur OTP is <strong>${otp}</strong>. It expires in 5 minutes.</p>`
             });
@@ -23,6 +23,7 @@ class EmailService {
             logger.info(`Sent OTP email to ${email}`);
             return data;
         } catch (err){
+            console.log(err, "*(*(*(&")
             logger.error('Error sending OTP email:', err);
             throw new Error('Could not send OTP email');
         }

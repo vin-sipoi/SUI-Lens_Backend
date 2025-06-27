@@ -12,3 +12,73 @@
 {"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-26T17:01:43.388Z"}
 {"level":"info","message":"Connected to Neon DB","timestamp":"2025-06-26T17:01:44.242Z"}
 {"level":"info","message":"Resend email setup is ready","timestamp":"2025-06-26T17:01:45.791Z"}
+{"level":"info","message":"Server is running on port 8080","timestamp":"2025-06-27T08:26:09.992Z"}
+{"level":"info","message":"Connected to Neon DB","timestamp":"2025-06-27T08:26:10.873Z"}
+{"level":"info","message":"Resend email setup is ready","timestamp":"2025-06-27T08:26:11.274Z"}
+{"level":"info","message":"Server is running on port 8080","timestamp":"2025-06-27T08:35:15.560Z"}
+{"level":"info","message":"Connected to Neon DB","timestamp":"2025-06-27T08:35:16.449Z"}
+{"level":"info","message":"Resend email setup is ready","timestamp":"2025-06-27T08:35:16.980Z"}
+{"level":"info","message":"POST /api/auth/request-otp","timestamp":"2025-06-27T08:35:24.275Z"}
+{"code":"42601","file":"scan.l","level":"error","line":"1236","message":"Error in requestOTP: syntax error at end of input","name":"NeonDbError","position":"35","routine":"scanner_yyerror","severity":"ERROR","stack":"NeonDbError: syntax error at end of input\n    at mr.execute (/Users/collins/SUI-Lens_Backend/node_modules/@neondatabase/serverless/index.js:1300:10)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-06-27T08:35:24.723Z"}
+{"level":"info","message":"Server is running on port 8080","timestamp":"2025-06-27T08:44:47.146Z"}
+{"level":"info","message":"Connected to Neon DB","timestamp":"2025-06-27T08:44:48.014Z"}
+{"level":"info","message":"Resend email setup is ready","timestamp":"2025-06-27T08:44:48.143Z"}
+{"level":"info","message":"POST /api/auth/request-otp","timestamp":"2025-06-27T08:45:06.375Z"}
+{"code":"42703","file":"parse_relation.c","level":"error","line":"3716","message":"Error in requestOTP: column \"email\" does not exist","name":"NeonDbError","position":"26","routine":"errorMissingColumn","severity":"ERROR","stack":"NeonDbError: column \"email\" does not exist\n    at mr.execute (/Users/collins/SUI-Lens_Backend/node_modules/@neondatabase/serverless/index.js:1300:10)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-06-27T08:45:06.839Z"}
+{"level":"info","message":"POST /api/auth/request-otp","timestamp":"2025-06-27T08:48:46.110Z"}
+{"code":"42703","file":"parse_relation.c","level":"error","line":"3716","message":"Error in requestOTP: column \"email\" does not exist","name":"NeonDbError","position":"26","routine":"errorMissingColumn","severity":"ERROR","stack":"NeonDbError: column \"email\" does not exist\n    at mr.execute (/Users/collins/SUI-Lens_Backend/node_modules/@neondatabase/serverless/index.js:1300:10)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-06-27T08:48:46.552Z"}
+{"level":"info","message":"Server is running on port 8080","timestamp":"2025-06-27T08:50:17.677Z"}
+{"level":"info","message":"Connected to Neon DB","timestamp":"2025-06-27T08:50:18.144Z"}
+{"level":"info","message":"Resend email setup is ready","timestamp":"2025-06-27T08:50:18.659Z"}
+{"level":"info","message":"POST /api/auth/request-otp","timestamp":"2025-06-27T08:50:20.881Z"}
+{"level":"error","message":"Error in requestOTP: Cannot read properties of undefined (reading 'length')","stack":"TypeError: Cannot read properties of undefined (reading 'length')\n    at /Users/collins/SUI-Lens_Backend/src/controllers/authController.ts:14:22\n    at Generator.next (<anonymous>)\n    at fulfilled (/Users/collins/SUI-Lens_Backend/src/controllers/authController.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-06-27T08:50:21.039Z"}
+{"level":"info","message":"Server is running on port 8080","timestamp":"2025-06-27T09:00:06.116Z"}
+{"level":"info","message":"Connected to Neon DB","timestamp":"2025-06-27T09:00:07.002Z"}
+{"level":"info","message":"Resend email setup is ready","timestamp":"2025-06-27T09:00:07.107Z"}
+{"level":"info","message":"POST /api/auth/request-otp","timestamp":"2025-06-27T09:00:18.139Z"}
+{"level":"info","message":"No user found for collinskoechck34@gmail.com, creating new user...","timestamp":"2025-06-27T09:00:19.245Z"}
+{"level":"info","message":"New user created with email: collinskoechck34@gmail.com","timestamp":"2025-06-27T09:00:19.402Z"}
+{"level":"error","message":"Error in requestOTP: logger.error is not a function","stack":"TypeError: logger.error is not a function\n    at Function.<anonymous> (/Users/collins/SUI-Lens_Backend/src/services/otpService.ts:25:20)\n    at Generator.next (<anonymous>)\n    at /Users/collins/SUI-Lens_Backend/src/services/otpService.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (/Users/collins/SUI-Lens_Backend/src/services/otpService.ts:4:12)\n    at Function.storeOTP (/Users/collins/SUI-Lens_Backend/src/services/otpService.ts:27:16)\n    at /Users/collins/SUI-Lens_Backend/src/controllers/authController.ts:24:26\n    at Generator.next (<anonymous>)\n    at fulfilled (/Users/collins/SUI-Lens_Backend/src/controllers/authController.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-06-27T09:00:19.407Z"}
+{"level":"info","message":"Server is running on port 8080","timestamp":"2025-06-27T09:05:02.601Z"}
+{"level":"info","message":"Connected to Neon DB","timestamp":"2025-06-27T09:05:03.068Z"}
+{"level":"info","message":"Resend email setup is ready","timestamp":"2025-06-27T09:05:03.593Z"}
+{"level":"info","message":"POST /api/auth/request-otp","timestamp":"2025-06-27T09:05:10.495Z"}
+{"code":"42P01","file":"parse_relation.c","length":102,"level":"error","line":"1449","message":"Error Saving OTP: relation \"otp\" does not exist","name":"error","position":"13","routine":"parserOpenTable","severity":"ERROR","stack":"error: relation \"otp\" does not exist\n    at /Users/collins/SUI-Lens_Backend/node_modules/pg-pool/index.js:45:11\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-06-27T09:05:11.673Z"}
+{"level":"error","message":"Error in requestOTP: Could not save OTP","stack":"Error: Could not save OTP\n    at Function.<anonymous> (/Users/collins/SUI-Lens_Backend/src/services/otpService.ts:26:19)\n    at Generator.throw (<anonymous>)\n    at rejected (/Users/collins/SUI-Lens_Backend/src/services/otpService.ts:6:65)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-06-27T09:05:11.676Z"}
+{"level":"info","message":"Server is running on port 8080","timestamp":"2025-06-27T09:06:40.643Z"}
+{"level":"info","message":"Connected to Neon DB","timestamp":"2025-06-27T09:06:41.132Z"}
+{"level":"info","message":"Resend email setup is ready","timestamp":"2025-06-27T09:06:41.284Z"}
+{"level":"info","message":"POST /api/auth/request-otp","timestamp":"2025-06-27T09:06:52.674Z"}
+{"code":"42P01","file":"parse_relation.c","length":102,"level":"error","line":"1449","message":"Error Saving OTP: relation \"otp\" does not exist","name":"error","position":"13","routine":"parserOpenTable","severity":"ERROR","stack":"error: relation \"otp\" does not exist\n    at /Users/collins/SUI-Lens_Backend/node_modules/pg-pool/index.js:45:11\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-06-27T09:06:53.867Z"}
+{"level":"error","message":"Error in requestOTP: Could not save OTP","stack":"Error: Could not save OTP\n    at Function.<anonymous> (/Users/collins/SUI-Lens_Backend/src/services/otpService.ts:26:19)\n    at Generator.throw (<anonymous>)\n    at rejected (/Users/collins/SUI-Lens_Backend/src/services/otpService.ts:6:65)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-06-27T09:06:53.871Z"}
+{"level":"info","message":"Server is running on port 8080","timestamp":"2025-06-27T09:08:22.001Z"}
+{"level":"info","message":"Connected to Neon DB","timestamp":"2025-06-27T09:08:22.464Z"}
+{"level":"info","message":"Resend email setup is ready","timestamp":"2025-06-27T09:08:22.986Z"}
+{"level":"info","message":"POST /api/auth/request-otp","timestamp":"2025-06-27T09:08:32.357Z"}
+{"level":"info","message":"Saved OTP for collinskoechck34@gmail.com","timestamp":"2025-06-27T09:08:33.537Z"}
+{"level":"error","message":"Error in requestOTP: logger.error is not a function","stack":"TypeError: logger.error is not a function\n    at Function.<anonymous> (/Users/collins/SUI-Lens_Backend/src/services/emailService.ts:27:20)\n    at Generator.next (<anonymous>)\n    at fulfilled (/Users/collins/SUI-Lens_Backend/src/services/emailService.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-06-27T09:08:34.535Z"}
+{"level":"info","message":"Server is running on port 8080","timestamp":"2025-06-27T09:10:11.496Z"}
+{"level":"info","message":"Connected to Neon DB","timestamp":"2025-06-27T09:10:11.961Z"}
+{"level":"info","message":"Resend email setup is ready","timestamp":"2025-06-27T09:10:12.657Z"}
+{"level":"info","message":"POST /api/auth/request-otp","timestamp":"2025-06-27T09:10:20.165Z"}
+{"level":"info","message":"Saved OTP for collinskoechck34@gmail.com","timestamp":"2025-06-27T09:10:21.336Z"}
+{"level":"error","message":"Resend email error: You can only send testing emails to your own email address (bevonmokuas@gmail.com). To send emails to other recipients, please verify a domain at resend.com/domains, and change the `from` address to an email using this domain.","name":"validation_error","statusCode":403,"timestamp":"2025-06-27T09:10:22.382Z"}
+{"level":"error","message":"Error sending OTP email: Could not send OTP email","stack":"Error: Could not send OTP email\n    at Function.<anonymous> (/Users/collins/SUI-Lens_Backend/src/services/emailService.ts:20:23)\n    at Generator.next (<anonymous>)\n    at fulfilled (/Users/collins/SUI-Lens_Backend/src/services/emailService.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-06-27T09:10:22.387Z"}
+{"level":"error","message":"Error in requestOTP: Could not send OTP email","stack":"Error: Could not send OTP email\n    at Function.<anonymous> (/Users/collins/SUI-Lens_Backend/src/services/emailService.ts:28:19)\n    at Generator.next (<anonymous>)\n    at fulfilled (/Users/collins/SUI-Lens_Backend/src/services/emailService.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-06-27T09:10:22.388Z"}
+{"level":"info","message":"Server is running on port 8080","timestamp":"2025-06-27T09:11:14.672Z"}
+{"level":"info","message":"Connected to Neon DB","timestamp":"2025-06-27T09:11:15.137Z"}
+{"level":"info","message":"Resend email setup is ready","timestamp":"2025-06-27T09:11:15.701Z"}
+{"level":"info","message":"POST /api/auth/request-otp","timestamp":"2025-06-27T09:11:23.854Z"}
+{"level":"info","message":"Saved OTP for collinskoechck34@gmail.com","timestamp":"2025-06-27T09:11:25.066Z"}
+{"level":"info","message":"Sent OTP email to collinskoechck34@gmail.com","timestamp":"2025-06-27T09:11:26.484Z"}
+{"level":"info","message":"POST /api/auth/request-otp","timestamp":"2025-06-27T09:12:33.289Z"}
+{"level":"info","message":"Saved OTP for collinskoechck34@gmail.com","timestamp":"2025-06-27T09:12:34.438Z"}
+{"level":"info","message":"Sent OTP email to collinskoechck34@gmail.com","timestamp":"2025-06-27T09:12:35.509Z"}
+{"level":"info","message":"POST /api/auth/verify-otp","timestamp":"2025-06-27T09:14:22.224Z"}
+{"level":"info","message":"Verified and deleted OTP for collinskoechck34@gmail.com","timestamp":"2025-06-27T09:14:23.410Z"}
+{"level":"info","message":"Logged in user: collinskoechck34@gmail.com","timestamp":"2025-06-27T09:14:23.552Z"}
+{"code":"42703","file":"parse_target.c","length":125,"level":"error","line":"1065","message":"Server error: column \"sess\" of relation \"sessions\" does not exist","name":"error","position":"25","routine":"checkInsertTargets","severity":"ERROR","stack":"error: column \"sess\" of relation \"sessions\" does not exist\n    at /Users/collins/SUI-Lens_Backend/node_modules/pg-pool/index.js:45:11\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async PGStore._asyncQuery (/Users/collins/SUI-Lens_Backend/node_modules/connect-pg-simple/index.js:322:21)","timestamp":"2025-06-27T09:14:23.860Z"}
+{"level":"info","message":"Server is running on port 8080","timestamp":"2025-06-27T09:23:49.658Z"}
+{"level":"info","message":"Connected to Neon DB","timestamp":"2025-06-27T09:23:50.124Z"}
+{"level":"info","message":"Resend email setup is ready","timestamp":"2025-06-27T09:23:50.305Z"}
+{"code":"42703","file":"parse_relation.c","length":103,"level":"error","line":"3716","message":"Server error: column \"sid\" does not exist","name":"error","position":"35","routine":"errorMissingColumn","severity":"ERROR","stack":"error: column \"sid\" does not exist\n    at /Users/collins/SUI-Lens_Backend/node_modules/pg-pool/index.js:45:11\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async PGStore._asyncQuery (/Users/collins/SUI-Lens_Backend/node_modules/connect-pg-simple/index.js:322:21)","timestamp":"2025-06-27T09:24:50.802Z"}

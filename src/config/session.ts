@@ -30,5 +30,5 @@ const sessionConfig: session.SessionOptions = {
         sameSite: 'strict',
     },
 };
-
+export {pool}
 export default sessionConfig;

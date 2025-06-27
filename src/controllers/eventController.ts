@@ -1,5 +1,5 @@
-const EventService = require('../services/eventService');
-const logger = require('../utils/logger');
+import logger from "../utils/logger"
+import EventService from "../services/eventService";
 
 class EventController {
     // Creating an event
